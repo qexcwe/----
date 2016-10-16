@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83daab3-2ea0-4a60-b9e8-4bad680e6b83" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner-r.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner2-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner2-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner5-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner5-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/buy-car.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-pic-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-pic-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-video-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-video-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-video-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/car-video-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/center-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focud-bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/focus-bg9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fous-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/host-car1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/host-car2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/host-car3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/hover-img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/index-bg_20160225.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qczj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sellcar1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sellcar2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sprite.fw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top-b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usedcarpic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usedcarpic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usedcarpic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usedcarpic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usedcarpic5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/汽车之家_r2_c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/汽车之家_r2_c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/汽车之家.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/cssReset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/页面简介.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <list id="d681c334-e807-4b14-a254-8f86f78d1358" name="New changelist" comment="" />
     <ignored path="汽车之家.iws" />
@@ -78,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -88,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1627" column="38" selection-start-line="1627" selection-start-column="28" selection-end-line="1627" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.26291078">
+              <caret line="1627" column="42" selection-start-line="1627" selection-start-column="42" selection-end-line="1627" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -249,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62441313">
-              <caret line="2092" column="17" selection-start-line="2092" selection-start-column="17" selection-end-line="2092" selection-end-column="17" />
+            <state vertical-scroll-proportion="-9.444445">
+              <caret line="2086" column="0" selection-start-line="2086" selection-start-column="0" selection-end-line="2087" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -279,8 +216,8 @@
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/css/cssReset.css" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -439,9 +376,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13185655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13185655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3209,10 +3146,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.444445">
+          <caret line="2086" column="0" selection-start-line="2086" selection-start-column="0" selection-end-line="2087" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1627" column="38" selection-start-line="1627" selection-start-column="28" selection-end-line="1627" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.26291078">
+          <caret line="1627" column="42" selection-start-line="1627" selection-start-column="42" selection-end-line="1627" selection-end-column="42" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -3365,14 +3310,6 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#div#17;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#17;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62441313">
-          <caret line="2092" column="17" selection-start-line="2092" selection-start-column="17" selection-end-line="2092" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
