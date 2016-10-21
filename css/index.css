@@ -5,48 +5,49 @@ html {
 }
 
 /*==S-top==*/
-.top {
+header .top {
     height: 115px;
     position: relative;
+    width: 100%;
 }
 
-.top > .logo {
+header .top > .logo {
     width: 170px;
     height: 90px;
     background: url(../img/logo.png);
     position: absolute;
     top: 24px;
-    left: 455px;
+    left: 418px;
     text-indent: -9999px;
     cursor: pointer
 }
 
-.top .top_1 {
+header .top .top_1 {
     height: 30px;
     background: #333333;
     line-height: 30px;
 }
 
-.top .top_1_page {
+header .top .top_1_page {
     width: 990px;
     height: 30px;
     margin: 0 auto;
 }
 
-.top .top_1 .top_1_l ul {
+header .top .top_1 .top_1_l ul {
     margin-left: 180px;
 }
 
-.top .top_1 .top_1_l li {
+header .top .top_1 .top_1_l li {
     color: #989899;
     padding-right: 8px;
 }
 
-.top .top_1 .top_1_l li:nth-of-type(1) {
+header .top .top_1 .top_1_l li:nth-of-type(1) {
     color: #FF6600;
 }
 
-.top .top_1 .top_1_l li:nth-of-type(2) s {
+header .top .top_1 .top_1_l li:nth-of-type(2) s {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -54,23 +55,23 @@ html {
     vertical-align: middle;
 }
 
-.top .top_1 .top_1_r li {
+header .top .top_1 .top_1_r li {
     color: #989899;
     padding-right: 8px;
 }
 
-.top .top_1 .top_1_r li a {
+header .top .top_1 .top_1_r li a {
     color: #FFFFFF;
     padding-right: 10px;
 }
 
-.top .top_1 .top_1_r li:nth-of-type(5) a {
+header .top .top_1 .top_1_r li:nth-of-type(5) a {
     background-color: #FF6600;
     padding: 3px 10px 3px 10px;
     border-radius: 3px;
 }
 
-.top .top_1 .top_1_r li:nth-of-type(6) i {
+header .top .top_1 .top_1_r li:nth-of-type(6) i {
     display: inline-block;
     width: 20px;
     height: 15px;
@@ -82,7 +83,7 @@ html {
     right: 5px;
 }
 
-.top .top_1 .top_1_r li:last-of-type i {
+header .top .top_1 .top_1_r li:last-of-type i {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -90,29 +91,29 @@ html {
     vertical-align: middle;
 }
 
-.top .top_2 {
+header .top .top_2 {
     height: 35px;
     background: #3B5998;
     line-height: 35px;
 }
 
-.top .top_2_page {
+header .top .top_2_page {
     width: 990px;
     height: 35px;
     margin: 0 auto;
 }
 
-.top .top_2 .top_2_page ul {
+header .top .top_2 .top_2_page ul {
     margin-left: 180px;
     color: #FFFFFF;
     font-size: 15px;
 }
 
-.top .top_2 .top_2_page ul li {
+header .top .top_2 .top_2_page ul li {
     padding-right: 13px;
 }
 
-.top .top_2 .top_2_page ul li > i {
+header .top .top_2 .top_2_page ul li > i {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -122,32 +123,32 @@ html {
     top: -4px;
 }
 
-.top .top_3 {
+header .top .top_3 {
     height: 50px;
     background: #EFEFEF;
     line-height: 50px;
 }
 
-.top .top_3_page {
+header .top .top_3_page {
     width: 990px;
     height: 50px;
     margin: 0 auto;
 }
 
-.top .top_3 .top_3_page ul {
+header .top .top_3 .top_3_page ul {
     margin-left: 180px;
     color: #333;
     font-size: 12px;
     height: 50px;
 }
 
-.top .top_3 .top_3_page ul li {
+header .top .top_3 .top_3_page ul li {
     height: 50px;
     position: relative;
     padding-right: 25px;
 }
 
-.top .top_3 .top_3_page ul li i {
+header .top .top_3 .top_3_page ul li i {
     display: inline-block;
     width: 40px;
     height: 20px;
@@ -156,7 +157,7 @@ html {
     top: 0;
 }
 
-.top .top_3 .top_3_page ul li p {
+header .top .top_3 .top_3_page ul li p {
     position: relative;
     top: 5px;
 }
@@ -837,25 +838,25 @@ html {
     margin-left: 20px;
 }
 
-.important_new_c .new_c-hostTitle{
+.important_new_c .new_c-hostTitle {
     font-size: 20px;
     color: #D60000;
     font-weight: 700;
     text-align: center;
     height: 30px;
-    line-height:30px;
+    line-height: 30px;
 }
-.important_new_c .new_c-subTitle{
+
+.important_new_c .new_c-subTitle {
     font-size: 12px;
     text-align: center;
     text-shadow: -1px 0 1px #FFD193;
 }
 
-
-.important_new_c .new_c-title_3{
+.important_new_c .new_c-title_3 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -863,22 +864,24 @@ html {
     font-weight: 700;
     margin: 10px 0;
 }
-.important_new_c .new_c-ul_1 li{
+
+.important_new_c .new_c-ul_1 li {
     list-style: disc inside;
     height: 25px;
     color: #989899;
     padding-bottom: 10px;
 
 }
-.important_new_c .new_c-ul_1 li a{
+
+.important_new_c .new_c-ul_1 li a {
     color: #3B5998;
     border-bottom: 1px dotted #989899;
 }
 
-.important_new_c .new_c-title_4{
+.important_new_c .new_c-title_4 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -886,48 +889,54 @@ html {
     font-weight: 700;
     margin: 10px 0;
 }
-.important_new_c .new_c-ul_2 li{
+
+.important_new_c .new_c-ul_2 li {
     list-style: disc inside;
     height: 25px;
     color: #989899;
     padding-bottom: 10px;
 
 }
-.important_new_c .new_c-ul_2 li a{
+
+.important_new_c .new_c-ul_2 li a {
     color: #3B5998;
     border-bottom: 1px dotted #989899;
 }
-.important_new_c .new_c-title_5{
+
+.important_new_c .new_c-title_5 {
     height: 25px;
     line-height: 25px;
 }
 
-.new_c-title_5 .new_c-title_5-f a:nth-of-type(1){
+.new_c-title_5 .new_c-title_5-f a:nth-of-type(1) {
     color: #3B5998;
     font-size: 16px;
     font-weight: 600;
 }
 
-.new_c-title_5 .new_c-title_5-f a:nth-of-type(2){
+.new_c-title_5 .new_c-title_5-f a:nth-of-type(2) {
     color: #FF6600;
     font-size: 16px;
     font-weight: 600;
 }
-.new_c-title_5 .new_c-title_5-r{
+
+.new_c-title_5 .new_c-title_5-r {
     font-size: 12px;
 }
-.new_c-title_5 .new_c-title_5-r a:nth-of-type(1){
+
+.new_c-title_5 .new_c-title_5-r a:nth-of-type(1) {
     color: #D60000;
 
 }
-.new_c-title_5 .new_c-title_5-r a:nth-of-type(2){
+
+.new_c-title_5 .new_c-title_5-r a:nth-of-type(2) {
     color: #989899;
 }
 
-.important_new_c .new_c-title_6{
+.important_new_c .new_c-title_6 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -936,66 +945,70 @@ html {
     margin: 10px 0;
 }
 
-.important_new_c .new_c-ul_3 .new_c-ul_3-f li{
+.important_new_c .new_c-ul_3 .new_c-ul_3-f li {
     height: 105px;
     padding-top: 15px;
 }
-.important_new_c .new_c-ul_3 .new_c-ul_3-f li a{
+
+.important_new_c .new_c-ul_3 .new_c-ul_3-f li a {
     display: inline-block;
     width: 120px;
     height: 90px;
     background: url(../img/focus-bg6.png);
 }
 
-.new_c-ul_3 .new_c-ul_3-r_1{
+.new_c-ul_3 .new_c-ul_3-r_1 {
     height: 105px;
     color: #989899;
     padding-top: 10px;
 }
-.new_c-ul_3 .new_c-ul_3-r_1 li{
+
+.new_c-ul_3 .new_c-ul_3-r_1 li {
     list-style: disc inside;
     height: 25px;
     line-height: 25px;
 }
-.new_c-ul_3 .new_c-ul_3-r_1 li a{
+
+.new_c-ul_3 .new_c-ul_3-r_1 li a {
     color: #3B5998;
 }
 
-
-.new_c-ul_3 .new_c-ul_3-r_2{
+.new_c-ul_3 .new_c-ul_3-r_2 {
     height: 105px;
     color: #989899;
     padding-top: 10px;
 }
-.new_c-ul_3 .new_c-ul_3-r_2 li{
+
+.new_c-ul_3 .new_c-ul_3-r_2 li {
     list-style: disc inside;
     height: 25px;
     line-height: 25px;
 }
-.new_c-ul_3 .new_c-ul_3-r_2 li a{
+
+.new_c-ul_3 .new_c-ul_3-r_2 li a {
     color: #3B5998;
 }
 
-.new_c-ul_3 .new_c-ul_3-r_3{
+.new_c-ul_3 .new_c-ul_3-r_3 {
     height: 105px;
     color: #989899;
     padding-top: 10px;
 }
-.new_c-ul_3 .new_c-ul_3-r_3 li{
+
+.new_c-ul_3 .new_c-ul_3-r_3 li {
     list-style: disc inside;
     height: 25px;
     line-height: 25px;
 }
-.new_c-ul_3 .new_c-ul_3-r_3 li a{
+
+.new_c-ul_3 .new_c-ul_3-r_3 li a {
     color: #3B5998;
 }
 
-
-
-.important_new_c .new_c-title_7{
+.important_new_c .new_c-title_7 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -1004,38 +1017,37 @@ html {
     margin: 15px 0 0px 0;
 }
 
-
-.important_new_c .new_c-title_8{
+.important_new_c .new_c-title_8 {
     height: 25px;
     line-height: 25px;
     margin-top: 10px;
 }
 
-.new_c-title_8 .new_c-title_8-f a:nth-of-type(1){
+.new_c-title_8 .new_c-title_8-f a:nth-of-type(1) {
     color: #3B5998;
     font-size: 16px;
     font-weight: 600;
 }
 
-.new_c-title_8 .new_c-title_8-f a:nth-of-type(2){
+.new_c-title_8 .new_c-title_8-f a:nth-of-type(2) {
     color: #FF6600;
     font-size: 16px;
     font-weight: 600;
 }
-.new_c-title_8 .new_c-title_8-r{
+
+.new_c-title_8 .new_c-title_8-r {
     font-size: 12px;
 }
-.new_c-title_8 .new_c-title_8-r a{
+
+.new_c-title_8 .new_c-title_8-r a {
     color: #3B5998;
 
 }
 
-
-
-.important_new_c .new_c-title_9{
+.important_new_c .new_c-title_9 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -1044,59 +1056,63 @@ html {
     margin: 8px 0;
 }
 
-.important_new_c .new_c-ul_4 .new_c-ul_4-f li{
+.important_new_c .new_c-ul_4 .new_c-ul_4-f li {
     height: 105px;
     padding-top: 15px;
 }
-.important_new_c .new_c-ul_4 .new_c-ul_4-f li a{
+
+.important_new_c .new_c-ul_4 .new_c-ul_4-f li a {
     display: inline-block;
     width: 120px;
     height: 90px;
     background: url(../img/focus-bg6.png);
 }
 
-.new_c-ul_4 .new_c-ul_4-r_1{
+.new_c-ul_4 .new_c-ul_4-r_1 {
     height: 105px;
     color: #989899;
     padding-top: 10px;
 }
-.new_c-ul_4 .new_c-ul_4-r_1 li{
+
+.new_c-ul_4 .new_c-ul_4-r_1 li {
     list-style: disc inside;
     height: 25px;
     line-height: 25px;
 }
-.new_c-ul_4 .new_c-ul_4-r_1 li a{
+
+.new_c-ul_4 .new_c-ul_4-r_1 li a {
     color: #3B5998;
 }
 
-.new_c-ul_4 .new_c-ul_4-r_2{
+.new_c-ul_4 .new_c-ul_4-r_2 {
     height: 105px;
     color: #989899;
     padding-top: 10px;
 }
-.new_c-ul_4 .new_c-ul_4-r_2 li{
+
+.new_c-ul_4 .new_c-ul_4-r_2 li {
     list-style: disc inside;
     height: 25px;
     line-height: 25px;
 }
-.new_c-ul_4 .new_c-ul_4-r_2 li a{
+
+.new_c-ul_4 .new_c-ul_4-r_2 li a {
     color: #3B5998;
 }
 
-
-
-.important_new_c .new_c-ul_5 li div{
+.important_new_c .new_c-ul_5 li div {
     height: 27px;
     width: 185px;
 }
-.important_new_c .new_c-ul_5 li div a{
+
+.important_new_c .new_c-ul_5 li div a {
     color: #3B5998;
 }
 
-.important_new_c .new_c-title_10{
+.important_new_c .new_c-title_10 {
     width: 370px;
     height: 28px;
-    line-height:28px;
+    line-height: 28px;
     border: 1px solid #D60000;
     text-align: center;
     font-size: 18px;
@@ -1110,148 +1126,168 @@ html {
     height: 1620px;
 }
 
-.important_new_r .in_r-1 a{
+.important_new_r .in_r-1 a {
     width: 190px;
     height: 240px;
     display: inline-block;
     background: url(../img/focus-bg7.png);
 }
-.important_new_r .in_r-2{
+
+.important_new_r .in_r-2 {
     height: 310px;
     margin-top: 3px;
     border: 1px solid #3B5998;
     border-top: 2px solid #3B5998;
 }
 
-.in_r-2 .in_r-2_img{
+.in_r-2 .in_r-2_img {
     padding: 2px 1.5px 0 0.5px;
 }
-.in_r-2 .in_r-2_img a{
+
+.in_r-2 .in_r-2_img a {
     width: 185px;
     height: 114px;
     display: inline-block;
     background: url(../img/focus-bg8.png);
 }
-.in_r-2 .in_r-2_list{
+
+.in_r-2 .in_r-2_list {
     color: #989899;
     padding-left: 5px;
 }
-.in_r-2 .in_r-2_list li{
+
+.in_r-2 .in_r-2_list li {
     height: 24px;
     line-height: 24px;
     width: 186px;
     list-style: disc inside;
 
 }
-.in_r-2 .in_r-2_list li a{
+
+.in_r-2 .in_r-2_list li a {
     font-size: 12px;
     color: #3B5998;
 }
 
-
-.important_new_r .in_r-3 a{
+.important_new_r .in_r-3 a {
     width: 190px;
     height: 240px;
     display: inline-block;
     background: url(../img/focus-bg9.png);
 }
 
-.important_new_r .in_r-3{
+.important_new_r .in_r-3 {
     margin-top: 10px;
 }
-.important_new_r .in_r-4{
+
+.important_new_r .in_r-4 {
     margin-top: 10px;
 }
-.important_new_r .in_r-4 a{
+
+.important_new_r .in_r-4 a {
     width: 190px;
     height: 240px;
     display: inline-block;
     background: url(../img/focus-bg7.png);
 }
-.important_new_r .in_r-5{
+
+.important_new_r .in_r-5 {
     height: 476px;
     border: 1px solid #3B5998;
     border-top: 2px solid #3B5998;
 }
 
-.in_r-5 .in_r-5_title{
+.in_r-5 .in_r-5_title {
     height: 30px;
-    line-height:30px;
+    line-height: 30px;
     padding: 0 10px;
     border-bottom: 1px solid #3B5998;
 }
 
-.in_r-5_title .in_r-5_title-l{
+.in_r-5_title .in_r-5_title-l {
     font-size: 17px;
     font-weight: 700;
     color: #3B5998;
 }
-.in_r-5 .in_r-5_img{
+
+.in_r-5 .in_r-5_img {
     height: 75px;
     padding: 10px 10px 0 10px;
 }
-.in_r-5 .in_r-5_img a{
+
+.in_r-5 .in_r-5_img a {
     width: 160px;
     height: 65px;
     display: inline-block;
     background: url(../img/focus-bg10.png);
 }
-.in_r-5 .in_r-5_list{
+
+.in_r-5 .in_r-5_list {
     color: #989899;
     padding: 6px 0 0 5px;
 }
-.in_r-5 .in_r-5_list li{
+
+.in_r-5 .in_r-5_list li {
     height: 25px;
     line-height: 25px;
     list-style: disc inside;
 }
-.in_r-5 .in_r-5_list li a{
+
+.in_r-5 .in_r-5_list li a {
     color: #3B5998;
     font-size: 12px;
 }
-.important_new_r .in_r-6{
+
+.important_new_r .in_r-6 {
     margin-top: 6px;
 }
-.important_new_r .in_r-6 a{
+
+.important_new_r .in_r-6 a {
     width: 190px;
     height: 60px;
     display: inline-block;
     background: url(../img/focus-bg11.png);
 }
+
 /*<!--E焦点图  要闻-->*/
 /*<!--S-img-2222-->*/
-.banner2{
+.banner2 {
     height: 110px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.banner2 .banner2_l{
+
+.banner2 .banner2_l {
     width: 690px;
     height: 90px;
     background: url(../img/banner2-l.png);
 }
-.banner2 .banner2_r{
+
+.banner2 .banner2_r {
     width: 290px;
     height: 90px;
     background: url(../img/banner2-r.png);
 }
+
 /*<!--E-img-2222-->*/
 /*<!--S-汽车视频-->*/
-.car-video{
+.car-video {
     height: 200px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.car-video .car-video_t{
+
+.car-video .car-video_t {
     height: 30px;
     position: relative;
     border-top: 3px solid #3B5998;
-    border-left:  1px solid #CCD3E5;
-    border-right:  1px solid #CCD3E5;
+    border-left: 1px solid #CCD3E5;
+    border-right: 1px solid #CCD3E5;
 }
-.car-video_t h2{
+
+.car-video_t h2 {
     width: 108px;
     height: 27px;
     line-height: 27px;
@@ -1264,75 +1300,83 @@ html {
     top: 0;
     left: 0;
 }
-.car-video_t .car-video_t-title{
+
+.car-video_t .car-video_t-title {
     padding-left: 140px;
     height: 25px;
-    line-height:25px;
+    line-height: 25px;
     position: relative;
-    top:2px;
+    top: 2px;
 }
-.car-video_t .car-video_t-title a{
+
+.car-video_t .car-video_t-title a {
     color: #3B5998;
 }
-.car-video_t>a{
+
+.car-video_t > a {
     position: relative;
-    top:5px;
-    padding-right:15px;
+    top: 5px;
+    padding-right: 15px;
 }
 
-
-.car-video .car-video_b{
+.car-video .car-video_b {
     height: 150px;
     border: 1px solid #CCD3E5;
     border-top: none;
 }
-.car-video .car-video_b span{
+
+.car-video .car-video_b span {
     display: inline-block;
     height: 100%;
     width: 29px;
 }
-.car-video .car-video_b span:nth-of-type(1){
+
+.car-video .car-video_b span:nth-of-type(1) {
     background: url(../img/car-video-l.png);
 }
-.car-video .car-video_b span:nth-of-type(2){
+
+.car-video .car-video_b span:nth-of-type(2) {
     background: url(../img/car-video-r.png);
 }
-.car-video .car-video_b ul{
+
+.car-video .car-video_b ul {
     width: 930px;
     height: 100%;
 }
 
-.car-video .car-video_b ul li{
+.car-video .car-video_b ul li {
     width: 186px;
     height: 150px;
     padding: 30px 13px;
 
 }
-.car-video .car-video_b ul li div{
+
+.car-video .car-video_b ul li div {
     background: url(../img/car-video-2.jpg);
     width: 160px;
     height: 90px;
 }
+
 /*<!--E-汽车视频-->*/
 
 /*<!--S-精彩车图-->*/
-.car-pic{
+.car-pic {
     height: 340px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
 
-.car-pic .car-pic_t{
+.car-pic .car-pic_t {
     height: 30px;
     position: relative;
     border-top: 3px solid #3B5998;
-    border-left:  1px solid #CCD3E5;
-    border-right:  1px solid #CCD3E5;
+    border-left: 1px solid #CCD3E5;
+    border-right: 1px solid #CCD3E5;
     font-size: 13px;
 }
 
-.car-pic_t h2{
+.car-pic_t h2 {
     width: 108px;
     height: 27px;
     line-height: 27px;
@@ -1346,54 +1390,58 @@ html {
     left: 0;
 }
 
-.car-pic_t button{
+.car-pic_t button {
     border: 1px solid #CCD3E4;
     background: #FAFBFC;
     color: #3B5998;
     padding: 0 15px;
 }
 
-.car-pic_t .car-pic_t-title{
+.car-pic_t .car-pic_t-title {
     padding-top: 2px;
     padding-left: 150px;
 }
 
-.car-pic_t .car-pic_t-title a{
+.car-pic_t .car-pic_t-title a {
     color: #3B5998;
 }
-.car-pic_t>a{
+
+.car-pic_t > a {
     position: relative;
-    top:5px;
-    padding-right:15px;
+    top: 5px;
+    padding-right: 15px;
 }
 
-.car-pic .car-pic_b{
+.car-pic .car-pic_b {
     height: 265px;
-    border-left:  1px solid #CCD3E5;
-    border-right:  1px solid #CCD3E5;
+    border-left: 1px solid #CCD3E5;
+    border-right: 1px solid #CCD3E5;
 }
-.car-pic .car-pic_b span{
+
+.car-pic .car-pic_b span {
     display: inline-block;
     height: 265px;
     width: 29px;
     line-height: 265px;
     position: relative;
 }
-.car-pic .car-pic_b span:nth-of-type(1) a{
+
+.car-pic .car-pic_b span:nth-of-type(1) a {
     background: url(../img/car-video-l.png) no-repeat;
     display: inline-block;
     height: 265px;
     width: 29px;
     position: absolute;
-    top:60px;
-
+    top: 60px;
 
 }
-.car-pic .car-pic_b span:nth-of-type(2){
+
+.car-pic .car-pic_b span:nth-of-type(2) {
     position: absolute;
-    top:-215px;
+    top: -215px;
 }
-.car-pic .car-pic_b span:nth-of-type(2) a{
+
+.car-pic .car-pic_b span:nth-of-type(2) a {
     display: inline-block;
     height: 265px;
     width: 29px;
@@ -1401,84 +1449,92 @@ html {
 
 }
 
-.car-pic .car-pic_b dt{
+.car-pic .car-pic_b dt {
     width: 390px;
     height: 265px;
-    padding: 20px  10px 40px 10px;
+    padding: 20px 10px 40px 10px;
 }
-.car-pic .car-pic_b dt a{
+
+.car-pic .car-pic_b dt a {
     display: inline-block;
     width: 370px;
     height: 185px;
     background: url(../img/car-pic-1.png);
 }
-.car-pic .car-pic_b dd{
+
+.car-pic .car-pic_b dd {
     width: 135px;
     height: 130px;
     padding: 15px 15px 0 0;
 }
 
-.car-pic .car-pic_b dd a{
+.car-pic .car-pic_b dd a {
     display: inline-block;
     width: 120px;
     height: 90px;
     background: url(../img/car-pic-2.png);
 }
 
-
-
-.car-pic .car-pic_b-control{
+.car-pic .car-pic_b-control {
     height: 25px;
     text-align: center;
     border: 1px solid #CCD3E5;
     border-top: 1px dotted #CCD3E5;
 }
-.car-pic_b-control span{
+
+.car-pic_b-control span {
     width: 40px;
     height: 5px;
     display: inline-block;
     background: #CCD3E4;
 }
-.car-pic_b-control span:hover{
+
+.car-pic_b-control span:hover {
     background: #FF6600;
 }
+
 /*<!--E-精彩车图-->*/
 
 /*<!--S-img-3333-->*/
-.banner3{
+.banner3 {
     height: 110px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.banner3 .banner3_l{
+
+.banner3 .banner3_l {
     width: 690px;
     height: 90px;
     background: url(../img/banner2-l.png);
 }
-.banner3 .banner3_r{
+
+.banner3 .banner3_r {
     width: 290px;
     height: 90px;
     background: url(../img/banner2-r.png);
 }
+
 /*<!--E-img-3333-->*/
 
 /*<!--S中间咨询部分***-->*/
 
-.center_consult{
+.center_consult {
     height: 1135px;
     padding-bottom: 20px;
     width: 990px;
     margin: 0 auto;
 }
-.center_consult .center_consult-title{
+
+.center_consult .center_consult-title {
     height: 30px;
     width: 990px;
     border-top: 3px solid #3B5998;
     border-bottom: 1px solid #CCD3E4;
     border-right: 1px solid #CCD3E4;
 }
-.center_consult-title dt{
+
+.center_consult-title dt {
     width: 75px;
     height: 27px;
     line-height: 24px;
@@ -1487,7 +1543,8 @@ html {
     background: #3B5998;
     color: #FFFFFF;
 }
-.center_consult-title dd{
+
+.center_consult-title dd {
     width: 75px;
     height: 27px;
     line-height: 24px;
@@ -1496,106 +1553,116 @@ html {
     border-right: 1px solid #CCD3E4;
     border-bottom: 1px solid #CCD3E4;
 }
-.center_consult-title dd:nth-of-type(1){
+
+.center_consult-title dd:nth-of-type(1) {
     border-bottom: none;
     background: #FFFFFF;
 }
 
-.center_consult .center_consult-main{
+.center_consult .center_consult-main {
     height: 1100px;
     width: 990px;
 
 }
 
-.center_consult-main .center_consult-l{
+.center_consult-main .center_consult-l {
     width: 630px;
     height: 1100px;
 }
 
-.center_consult-main .center_consult-l li{
+.center_consult-main .center_consult-l li {
     height: 110px;
     width: 630px;
 }
 
-.center_consult-l li .center_consult-l_img{
+.center_consult-l li .center_consult-l_img {
     width: 120px;
     height: 90px;
     background: url(../img/center-bg.jpg);
     margin: 15px 0 0 5px;
 }
 
-.center_consult-l li .center_consult-l_explain{
+.center_consult-l li .center_consult-l_explain {
     width: 505px;
     height: 90px;
     margin: 15px 0 0 0;
     padding-left: 10px;
 }
 
-.center_consult-l_explain p:nth-of-type(1){
+.center_consult-l_explain p:nth-of-type(1) {
     font-size: 18px;
     color: #3B5998;
 }
-.center_consult-l_explain span{
+
+.center_consult-l_explain span {
     font-size: 12px;
     display: block;
     margin: 5px 0;
 }
-.center_consult-l_explain p:nth-of-type(2){
+
+.center_consult-l_explain p:nth-of-type(2) {
     font-size: 13px;
     color: #999999;
     margin-top: 15px;
 }
 
-.center_consult-main .center_consult-r{
+.center_consult-main .center_consult-r {
     width: 340px;
     height: 1090px;
     padding-top: 15px;
 }
 
-.center_consult-r .center_consult-r-list{
+.center_consult-r .center_consult-r-list {
     height: 215px;
     width: 340px;
     border: 1px solid #CCD3E4;
 }
-.center_consult-r-list h3{
+
+.center_consult-r-list h3 {
     height: 30px;
-line-height: 30px;
+    line-height: 30px;
     padding-left: 10px;
     font-weight: 600;
     border-bottom: 1px solid #CCD3E4;
 }
-.center_consult-r-list>div{
+
+.center_consult-r-list > div {
     padding: 18px 20px;
 }
+
 /*<!--E中间咨询部分***-->*/
 
 /*<!--S-img-4444-->*/
-.banner4{
+.banner4 {
     height: 110px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.banner4 .banner4_l{
+
+.banner4 .banner4_l {
     width: 690px;
     height: 90px;
     background: url(../img/banner4.jpg);
 }
-.banner4 .banner4_r{
+
+.banner4 .banner4_r {
     width: 290px;
     height: 90px;
     background: url(../img/banner-r.jpg);
 }
+
 /*<!--E-img-4444-->*/
 /*<!--S-北京购车-->*/
-.buy_car{
+.buy_car {
     width: 990px;
     height: 280px;
     padding-bottom: 10px;
     margin: 0 auto;
     border-top: 2px solid #3B5998;
 }
-.buy_car .buy_car-t{
+
+.buy_car .buy_car-t {
     height: 30px;
     line-height: 30px;
     border: 1px solid #CCD3E5;
@@ -1603,62 +1670,68 @@ line-height: 30px;
     padding: 0 20px;
     color: #3B5998;
 }
-.buy_car .buy_car-b{
+
+.buy_car .buy_car-b {
     height: 240px;
     line-height: 30px;
     border: 1px solid #CCD3E5;
     border-top: none;
 }
 
-.buy_car-b .buy_car-b1{
+.buy_car-b .buy_car-b1 {
     width: 390px;
     height: 240px;
     padding: 25px 12px;
 }
-.buy_car-b .buy_car-b1 a{
+
+.buy_car-b .buy_car-b1 a {
     display: inline-block;
     width: 368px;
     height: 184px;
     background: url(../img/buy-car.jpg);
 }
-.buy_car-b .buy_car-b2{
+
+.buy_car-b .buy_car-b2 {
     width: 297px;
     height: 240px;
     border-left: 1px solid #CCD3E4;
     border-right: 1px solid #CCD3E4;
 }
-.buy_car-b2 dt{
+
+.buy_car-b2 dt {
     padding: 0 25px;
 }
-.buy_car-b2 dd{
+
+.buy_car-b2 dd {
     color: #3B5998;
     font-size: 13px;
     padding: 0 15px;
 }
 
-
-.buy_car .buy_car-b .buy_car-b3{
+.buy_car .buy_car-b .buy_car-b3 {
     width: 300px;
     height: 240px;
     color: #3B5998;
 }
 
-.buy_car-b3 .buy_car-b3_t{
+.buy_car-b3 .buy_car-b3_t {
     width: 300px;
     height: 30px;
     line-height: 30px;
     padding-left: 10px;
 }
 
-.buy_car-b3 .buy_car-b3_b{
+.buy_car-b3 .buy_car-b3_b {
     width: 300px;
     height: 210px;
 }
-.buy_car-b3_b .buy_car-b3_b-t{
+
+.buy_car-b3_b .buy_car-b3_b-t {
     height: 180px;
     width: 300px;
 }
-.buy_car-b3_b-t li{
+
+.buy_car-b3_b-t li {
     width: 150px;
     height: 180px;
     padding: 5px 25px;
@@ -1666,49 +1739,55 @@ line-height: 30px;
     text-align: center;
 }
 
-.buy_car-b3_b-t li>a:nth-of-type(1){
+.buy_car-b3_b-t li > a:nth-of-type(1) {
     display: inline-block;
     width: 100px;
     height: 100px;
     background: url(../img/car-logo.jpg);
 }
-.buy_car-b3_b-t li>a:nth-of-type(2){
+
+.buy_car-b3_b-t li > a:nth-of-type(2) {
     position: relative;
-    top:-5px;
+    top: -5px;
 }
-.buy_car-b3_b-t li>p{
+
+.buy_car-b3_b-t li > p {
     height: 16px;
 }
 
-.buy_car-b3_b .buy_car-b3_b-b{
+.buy_car-b3_b .buy_car-b3_b-b {
     height: 30px;
     width: 299px;
     text-align: center;
 }
-.buy_car-b3_b .buy_car-b3_b-b span{
+
+.buy_car-b3_b .buy_car-b3_b-b span {
     display: inline-block;
     width: 40px;
     height: 5px;
     background: #CCD3E4;
 }
+
 /*<!--E-北京购车-->*/
 /*<!--S-北京车市-->*/
-.market{
+.market {
     width: 990px;
     height: 285px;
     padding-bottom: 5px;
-    margin:  0 auto;
+    margin: 0 auto;
     border: 1px solid #CCD3E4;
     border-top: 3px solid #3B5998;
 }
-.market .market-title{
+
+.market .market-title {
     height: 30px;
     width: 990px;
     position: relative;
     border-bottom: 1px solid #CCD3E4;
 
 }
-.market-title h2{
+
+.market-title h2 {
     position: absolute;
 
     padding: 6px 20px;
@@ -1716,99 +1795,112 @@ line-height: 30px;
     color: #FFFFFF;
 }
 
-.market-title dl{
+.market-title dl {
     padding-left: 150px;
     line-height: 27px;
     text-align: center;
 
 }
-.market-title dt{
+
+.market-title dt {
     width: 80px;
     border-top: 3px solid #FF6600;
     position: relative;
-    top:-3px;
+    top: -3px;
     border-right: 1px solid #CCD3E4;
 }
-.market-title dd{
+
+.market-title dd {
     width: 80px;
     border-right: 1px solid #CCD3E4;
 }
-.market-title a{
+
+.market-title a {
     display: inline-block;
     line-height: 30px;
     padding-right: 20px;
 }
 
-.market .market-content{
+.market .market-content {
     height: 240px;
     width: 990px;
 }
-.market-content .market-list1{
+
+.market-content .market-list1 {
     width: 245px;
     height: 241px;
     padding: 10px 10px 6px 10px;
 }
-.market-list1 .market-text01{
+
+.market-list1 .market-text01 {
     width: 100px;
 }
-.market-list1 .market-text02{
+
+.market-list1 .market-text02 {
     width: 55px;
 }
-.market-list1 .market-text03{
+
+.market-list1 .market-text03 {
     width: 65px;
 }
-.market-content .market-list1 dl{
+
+.market-content .market-list1 dl {
     width: 225px;
     height: 225px;
 }
-.market-list1 dl dt{
+
+.market-list1 dl dt {
     width: 225px;
     height: 29px;
     line-height: 28px;
     border-top: 1px dotted #3B5998;
     border-bottom: 1px dotted #3B5998;
-    padding-left:5px;
+    padding-left: 5px;
 }
 
-.market-list1 dl dd{
+.market-list1 dl dd {
     width: 225px;
     height: 29px;
     line-height: 28px;
     border-bottom: 1px dotted #3B5998;
-    padding-left:5px;
+    padding-left: 5px;
 }
+
 /*<!--E-北京车市-->*/
 /*<!--S-北京热销车型-->*/
-.host_car{
+.host_car {
     width: 990px;
     height: 360px;
     padding-bottom: 20px;
     margin: 0 auto;
 }
-.host_car .host_car-l{
+
+.host_car .host_car-l {
     height: 340px;
     width: 790px;
 }
 
-.host_car-l .host_car-l-top{
+.host_car-l .host_car-l-top {
     height: 100px;
     width: 790px;
     padding-bottom: 10px;
 }
-.host_car-l-top a{
+
+.host_car-l-top a {
     display: inline-block;
     width: 790px;
     height: 90px;
     background: url(../img/host-car1.png);
 }
-.host_car-l .host_car-l-b{
+
+.host_car-l .host_car-l-b {
     height: 240px;
     width: 790px;
     border: 1px solid #CCD3E4;
     border-top: 3px solid #3B5998;
 }
 
-.host_car-l-b .host-b_1{
+.host_car-l-b .host-b_1 {
     height: 30px;
     width: 789px;
     padding-left: 20px;
@@ -1818,87 +1910,97 @@ line-height: 30px;
     background: #FAFBFC;
 }
 
-.host_car-l-b .host-b_2{
+.host_car-l-b .host-b_2 {
     height: 180px;
     width: 790px;
     padding: 15px 15px 0 15px;
 }
-.host-b_2 li{
+
+.host-b_2 li {
     width: 151px;
     height: 150px;
     text-align: center;
 }
-.host-b_2 li div{
+
+.host-b_2 li div {
     width: 150px;
     height: 90px;
 }
-.host-b_2 li div a{
+
+.host-b_2 li div a {
     display: inline-block;
     width: 120px;
     height: 90px;
     background: url(../img/host-car2.png);
 }
-.host-b_2 li>p a{
+
+.host-b_2 li > p a {
     color: #3B5998;
 }
-.host-b_2 li>p{
+
+.host-b_2 li > p {
     height: 25px;
     line-height: 25px;
 }
-.host-b_2 li>p:nth-of-type(1){
+
+.host-b_2 li > p:nth-of-type(1) {
     font-size: 12px;
     color: #D60000;
     font-weight: 600;
 }
 
-.host_car-l-b .host-b_3{
+.host_car-l-b .host-b_3 {
     height: 30px;
     width: 790px;
     text-align: center;
 }
-.host-b_3 span{
+
+.host-b_3 span {
     display: inline-block;
     width: 40px;
     height: 5px;
     background: #CCD3E4;
 }
 
-.host_car .host_car-r{
+.host_car .host_car-r {
     height: 340px;
     width: 190px;
     background: url(../img/host-car3.png);
 }
 
-
 /*<!--E-北京热销车型-->*/
 
 /*<!--S-img-5555-->*/
-.banner5{
+.banner5 {
     height: 110px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-.banner5 .banner5_l{
+
+.banner5 .banner5_l {
     width: 690px;
     height: 90px;
     background: url(../img/banner5-l.png);
 }
-.banner5 .banner5_r{
+
+.banner5 .banner5_r {
     width: 290px;
     height: 90px;
     background: url(../img/banner5-r.png);
 }
+
 /*<!--E-img-5555-->*/
 /*<!----S--车商城-->*/
-.sell_car{
+.sell_car {
     width: 990px;
     height: 490px;
     padding-bottom: 10px;
     margin: 0 auto;
     border-top: 3px solid #3B5998;
 }
-.sell_car .sell_car-t{
+
+.sell_car .sell_car-t {
     height: 35px;
     line-height: 30px;
     width: 990px;
@@ -1906,74 +2008,85 @@ line-height: 30px;
     padding: 0 20px 0 100px;
     color: #3B5998;
 }
-.sell_car-t h2{
+
+.sell_car-t h2 {
     position: absolute;
     left: 0px;
-    top:0px;
+    top: 0px;
     background: #3B5998;
     color: #FFFFFF;
     padding: 0 20px;
 }
 
-
-.sell_car .sell_car-b{
+.sell_car .sell_car-b {
     height: 450px;
     width: 990px;
 }
 
-.sell_car-b .sell_car-b_l{
+.sell_car-b .sell_car-b_l {
     width: 390px;
     height: 450px;
 }
-.sell_car-b_l .sell_car-b_l1{
+
+.sell_car-b_l .sell_car-b_l1 {
     height: 225px;
     width: 390px;
     padding: 20px 10px 15px 10px;
     border: 1px solid #CCD3E4;
 }
-.sell_car-b_l1 a{
+
+.sell_car-b_l1 a {
     display: inline-block;
     width: 370px;
     height: 185px;
     background: url(../img/sellcar1.jpg);
 }
-.sell_car-b_l .sell_car-b_l2{
+
+.sell_car-b_l .sell_car-b_l2 {
     height: 225px;
     width: 390px;
     padding-top: 10px;
 }
-.sell_car-b_l2 .sell_car-b_l2-content{
+
+.sell_car-b_l2 .sell_car-b_l2-content {
     height: 215px;
     width: 390px;
     border: 1px solid #CCD3E4;
     border-top: 2px solid #3B5998;
 }
-.sell_car-b_l2-content .sell_car-b_l2-title{
+
+.sell_car-b_l2-content .sell_car-b_l2-title {
     height: 30px;
     width: 390px;
-    line-height:30px;
+    line-height: 30px;
     border-bottom: 1px solid #CCD3E4;
     padding: 0 15px;
     font-weight: 600;
 }
-.sell_car-b_l2-content .sell_car-b_l2-ul{
+
+.sell_car-b_l2-content .sell_car-b_l2-ul {
     padding: 10px 0 5px 10px;
 }
-.sell_car-b_l2-ul li{
+
+.sell_car-b_l2-ul li {
     height: 30px;
 }
-.sell_car-b_l2-ul span{
+
+.sell_car-b_l2-ul span {
     color: #999999;
 }
-.sell_car-b_l2-ul a{
+
+.sell_car-b_l2-ul a {
     color: #3B5998;
 }
-.sell_car-b .sell_car-b_r{
+
+.sell_car-b .sell_car-b_r {
     width: 600px;
     height: 450px;
     padding: 10px 0 10px 10px;
 }
-.sell_car-b_r li{
+
+.sell_car-b_r li {
     width: 190px;
     height: 215px;
     text-align: center;
@@ -1983,28 +2096,31 @@ line-height: 30px;
 
 /*<!--E---车商城-->*/
 /*<!--S-img-6666-->*/
-.banner6{
+.banner6 {
     height: 110px;
     width: 990px;
     margin: 0 auto;
     padding-bottom: 15px;
     padding-top: 5px;
 }
-.banner6 .banner6_l{
+
+.banner6 .banner6_l {
     width: 690px;
     height: 90px;
     background: url(../img/banner5-l.png);
 }
-.banner6 .banner6_r{
+
+.banner6 .banner6_r {
     width: 290px;
     height: 90px;
     background: url(../img/banner5-r.png);
 }
+
 /*<!--E-img-6666-->*/
 
 /*<!--S--北京二手车-->*/
 
-.second-hand_car{
+.second-hand_car {
     height: 510px;
     padding-bottom: 20px;
     width: 990px;
@@ -2012,108 +2128,217 @@ line-height: 30px;
     border-top: 2px solid #3B5998;
 }
 
-.second-hand_car .second-hand-t{
+.second-hand_car .second-hand-t {
     height: 30px;
     line-height: 30px;
     width: 990px;
     position: relative;
     padding-left: 130px;
 }
-.second-hand-t h2{
+
+.second-hand-t h2 {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     background: #3B5998;
     color: #FFFFFF;
     padding: 0 20px;
 }
 
-.second-hand-t span{
+.second-hand-t span {
     font-size: 12px;
 }
-.second-hand-t span a{
+
+.second-hand-t span a {
     font-size: 12px;
     color: #3B5998;
 }
-.second-hand-t>div:nth-of-type(2){
+
+.second-hand-t > div:nth-of-type(2) {
     margin-left: 50px;
 }
 
-.second-hand_car .second-hand-b{
+.second-hand_car .second-hand-b {
     height: 460px;
     padding-top: 10px;
 }
 
-.second-hand-b .second-hand-b_l{
+.second-hand-b .second-hand-b_l {
     width: 380px;
     height: 450px;
     border-top: 2px solid #3B5998;
 }
 
-
-.second-hand-b_l .top{
+.second-hand-b_l .top {
     height: 50px;
-    line-height:50px;
+    line-height: 50px;
     width: 380px;
     padding: 0 10px;
     background: #F9F9F9;
     border-bottom: 1px dotted #CCD3E4;
 }
-.second-hand-b_l .top span{
+
+.second-hand-b_l .top span {
     font-size: 22px;
     color: #999;
 }
-.second-hand-b_l .top a{
+
+.second-hand-b_l .top a {
     color: #3B5998;
 }
-.second-hand-b_l .top a:hover{
+
+.second-hand-b_l .top a:hover {
     color: #D60000;
     text-decoration: underline;
 }
 
-.second-hand-b_l .center{
+.second-hand-b_l .center {
     height: 350px;
     width: 380px;
-    background: yellow;
 }
 
-
-.second-hand-b_l .center .logo{
+.second-hand-b_l .center .logo {
     height: 170px;
     width: 380px;
-    background: red;
-}
-.second-hand-b_l .center .price{
-    height: 90px;
-    width: 380px;
-    background: green;
 }
 
-.second-hand-b_l .center .price_cars{
-    height: 90px;
-    width: 380px;
-    background: skyblue;
+.second-hand-b_l .center .logo dt {
+    color: #999999;
+    padding: 5px 0 0 10px;
 }
 
+.second-hand-b_l .center .logo dt:after {
+    content: ':';
+}
 
-.second-hand-b_l .bottom{
+.second-hand-b_l .center .logo dd {
+    padding: 0 6px;
+    text-align: center;
+}
+
+.second-hand-b_l .center .logo img {
+    width: 50px;
     height: 50px;
-    line-height:50px;
+}
+
+.second-hand-b_l .center .price {
+    height: 90px;
+    width: 380px;
+}
+
+.second-hand-b_l .center .price dd {
+    width: 65px;
+    height: 30px;
+    margin: 5px 0 0 8px;
+    text-align: center;
+}
+
+.second-hand-b_l .center .price_cars {
+    height: 90px;
+    width: 380px;
+}
+
+.second-hand-b_l .center .price_cars dd {
+    width: 65px;
+    height: 30px;
+    margin: 5px 0 0 8px;
+    text-align: center;
+}
+
+.second-hand-b_l .bottom {
+    height: 50px;
+    line-height: 50px;
     width: 380px;
     text-align: center;
     background: #F9F9F9;
     border-top: 1px dotted #CCD3E4;
 }
-.second-hand-b_l .bottom a{
+
+.second-hand-b_l .bottom a {
     color: #3B5998;
 }
-.second-hand-b_l .bottom a:hover{
+
+.second-hand-b_l .bottom a:hover {
     color: #D60000;
     text-decoration: underline;
 }
-.second-hand-b .second-hand-b_r{
+
+.second-hand-b .second-hand-b_r {
     width: 610px;
     height: 450px;
-    background: deepskyblue;
+}
+
+.second-hand-b_r li {
+    width: 190px;
+    height: 215px;
+    text-align: center;
+    border: 1px solid #CCD3E4;
+    margin: 0 6px 10px 0;
+}
+footer{
+    height: 250px;
+    width: 990px;
+    margin: 0 auto;
+}
+footer .top{
+    height: 175px;
+    margin-bottom: 15px;
+    border:  2px solid #CCD3E4;
+}
+footer .top .title{
+    height: 30px;
+    width: 986px;
+    background: #F2F5F8;
+    border-bottom: 1px solid #CCD3E4;
+}
+footer .top .title span{
+    display: inline-block;
+    width: 90px;
+    height: 29px;
+    line-height:30px;
+    background: #FAFBFC;
+    text-align: center;
+}
+footer .top .title span:nth-of-type(1){
+    background: #FFFFFF;
+    height: 30px;
+    border-top: 2px solid #FF6600;
+}
+footer .top .title span:nth-of-type(2){
+    height: 27px;
+    border-right: 1px solid #CCD3E4;
+    border-left: 1px solid #CCD3E4;
+    border-top: 2px solid #3B5998;
+
+}
+footer .top .list1{
+    height: 40px;
+    line-height:40px;
+    color: #666666;
+}
+footer .top .list1 dt{
+    /*display: inline-block;*/
+    width: 90px;
+    text-align: center;
+}
+footer .top .list1 dt:after{
+    content: ">";
+}
+footer .top .list1 dd{
+    padding:0 5px;
+}
+
+
+
+
+footer .bottom{
+    border-top: 2px solid #3B5998;
+}
+footer .bottom ul{
+    height: 30px;
+    line-height:30px;
+}
+footer .bottom li{
+    padding-left: 10px;
 }
 /*<!--E--北京二手车-->*/
